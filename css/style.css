@@ -93,6 +93,14 @@ CAROUSEL
 /******************************
 BODY
 *******************************/
+.homepage{
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+.homepage img{
+  box-shadow: 5px 5px 5px #aaa;
+}
 .current {
   margin-top: 40px;
   padding: 10px;
