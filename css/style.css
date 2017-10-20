@@ -1,0 +1,126 @@
+
+
+/******************************
+NAVBAR
+*******************************/
+.navbar{
+  min-height: 70px;
+}
+.navbar-inverse {
+  background: black;
+
+}
+
+.nav .navbar-nav .navbar-right ul{
+  margin-left: 1000px;
+}
+
+.navbar-inverse .navbar-nav li {
+  margin-right: 1px;
+}
+
+.navbar-inverse .navbar-nav li a {
+  border-radius: 10%;
+  padding-top: 20px;
+  padding-bottom: 28px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+
+.navbar-inverse .navbar-nav .active a
+{
+  background-color:green;
+}
+
+.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+  background-color:green;
+  opacity: 0.7;
+}
+
+.navbar-inverse .navbar-nav .inactive a:focus, .navbar-inverse .navbar-nav .inactive a:hover
+{
+  background-color:green;
+  opacity: 0.7;
+
+}
+
+.navbar-inverse .navbar-brand {
+  padding: 30px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+.navbar-inverse .navbar-brand img{
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  padding: 0;
+  margin-left: 20px;
+  width: 10%;
+  display: inline;
+}
+
+
+
+/******************************
+CAROUSEL
+*******************************/
+.carousel h1 {
+  font-size: 4em;
+}
+
+.carousel {
+  background-color: black;
+}
+
+.carousel-caption{
+  bottom:30%;
+}
+
+#main-img{
+  opacity: .5;
+}
+.carousel .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************
+BODY
+*******************************/
+.current {
+  margin-top: 40px;
+  padding: 10px;
+}
+.current:hover{
+  opacity: .5;
+  cursor:pointer;
+}
+
+/******************************
+FOOTER
+*******************************/
+footer .container{
+  margin: 0;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.footer{
+  height: 250px;
+  background-color: green;
+}
+
+.footer-menu{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
