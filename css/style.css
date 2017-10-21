@@ -47,7 +47,7 @@ NAVBAR
 
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand{
   padding: 30px;
   color: white;
   font-family: 'Varela Round', sans-serif;
@@ -79,10 +79,12 @@ CAROUSEL
 
 .carousel-caption{
   bottom:30%;
+  text-shadow: 3px 3px 6px black;
+
 }
 
 #main-img{
-  opacity: .5;
+  opacity: .3;
 }
 .carousel .container {
   width: 100%;
