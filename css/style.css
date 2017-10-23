@@ -132,7 +132,7 @@ footer .container{
 }
 
 .footer{
-  height: 250px;
+  height: auto;
   background-color: black;
   padding: 2%;
   margin-bottom:0;
