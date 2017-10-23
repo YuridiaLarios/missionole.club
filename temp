@@ -1,0 +1,62 @@
+
+
+<section class="content">
+  <div class="container">
+    <div class="row">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Staff</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Leadership Team</a>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="container mission-statement">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="group-pic" src="img/members/group.jpg">
+        </div>
+        <div class="col-sm-8">
+          <h2>Mission Statement</h2>
+          <p>
+            We believe in teaching our youth to use their voices as a form of cultural affirmation, to raise awareness on issues that affect our communities, and to promote social activism.
+            OLE works to build youth leadership capacity in several areas:
+            <ul>
+            <li>Inspire pro-social friendships, strong life and interpersonal skills, and instill a sense of hope in the future to opportunity youth.</li>
+            <li>Improve youth’s life outcomes by providing life skills and character development that will make them self-sufficient and help them make positive life choices.</li>
+            <li>Utilize cultural enrichment activities, and civic engagement to train youth leaders.</li>
+            <ul>
+          </p>
+        </div>
+      </div>
+    </div> <!-- end of mission-statement container-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 text-justify">
+        <h2>Our History</h2>
+        <p>
+          "The Ole Club has existed for almost 11 years now. With the support of Nancy Rodriguez (founder and coordinator) and students, the Latinx Youth Organization works the entire year to bring academic, cultural  enrinchment, and recreational events. Activities such as car washes, Tropical Dance Night, community service at the convalescent home, free pan dulce and hot chocolate for the labor workers at Cesar Chavez St, lunch dance performances, family carnivals, Cinco de Mayo and Mother's day are only a few of the events of our organization. All  this hard work and dedication culminates at the end of the year when the OLE students showcase their annual performance, educating and entertaining the students and staff of Mission High School about the history, culture and lifestyle of our Latin families through plays, poetry, dance and songs.
+        </p>
+        </div>
+        <div class="col-sm-4">
+        <img class="rodriguez" src="img/members/Rodriguez.jpg">
+        </div>
+      </div>
+    </div> <!-- end of history container-->
+
+
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+    </div>
+  </div>
+
+</section>

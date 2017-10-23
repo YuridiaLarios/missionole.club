@@ -1,10 +1,25 @@
- .mission-statement {
+/************************************
+GENERAL
+*************************************/
+
+.mission-statement {
   width: 100%;
+  margin-top: 4%;
+  margin-bottom: -50px;
   height: 450px;
   padding: 5% 0%;
+  font-size: 1.2em;
 }
 
-h2{
+.history {
+  width: 100%;
+  height: 400px;
+  padding: 2% 0%;
+  font-size: 1.2em;
+}
+
+.mission-statement h2, .history h2{
+  color: green;
   text-align: center;
 }
 
@@ -12,4 +27,45 @@ h2{
   box-shadow: 5px 5px 5px #aaa;
   width:100%;
   border-radius: 5px;
+}
+
+
+.content{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+  margin-top: 3%;
+
+}
+
+/************************************
+BODY: TAB BUTTONS
+*************************************/
+
+/* Buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.3%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    background-color: white;
 }
