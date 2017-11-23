@@ -9,8 +9,8 @@
     cursor: pointer;
     padding: 8px 16px;
     font-size: 17px;
-    width: 7%;
-    margin-right: 1px;
+    width: 15%;
+    margin-right: 5px;
 }
 
 /* Change background color of buttons on hover */
@@ -24,6 +24,10 @@
     display: none;
 }
 
+.awards-menu {
+  margin-top: 50px;
+  margin-left: 15%;
+}
 
 body {
   margin-top: 4%;
@@ -41,16 +45,17 @@ h4{
 }
 
 .content-container {
-  
+  width: 100%;
+  height: auto;
 }
 
 .facebook-plugin-content{
-  width: 50%;
+  width: 45%;
   height: 1200px;
 }
 
 .awards-performances{
-  width: 49%;
+  width: 45%;
   height: 1200px;
   background: url("../img/shattered.png");
 
