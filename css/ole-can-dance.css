@@ -1,3 +1,30 @@
+
+/* Buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 17px;
+    width: 7%;
+    margin-right: 1px;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+}
+
+
 body {
   margin-top: 4%;
 }
@@ -12,9 +39,26 @@ body {
 h4{
   margin-top: 50px;
 }
+
+.content-container {
+  
+}
+
+.facebook-plugin-content{
+  width: 50%;
+  height: 1200px;
+}
+
+.awards-performances{
+  width: 49%;
+  height: 1200px;
+  background: url("../img/shattered.png");
+
+}
+
 .performances{
   display: block;
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
   border-radius: 2%;
 }
