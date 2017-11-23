@@ -33,12 +33,7 @@ body {
   margin-top: 4%;
 }
 
-.col-sm-4{
-  margin-top: 5%;
-}
-.col-sm-8 {
-  margin-top: 5%;
-}
+
 
 h4{
   margin-top: 50px;
@@ -50,11 +45,13 @@ h4{
 }
 
 .facebook-plugin-content{
+  margin-top: 5%;
   width: 45%;
   height: 1200px;
 }
 
 .awards-performances{
+  margin-top: 5%;
   width: 45%;
   height: 1200px;
   background: url("../img/shattered.png");
